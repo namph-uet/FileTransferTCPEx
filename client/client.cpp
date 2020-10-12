@@ -91,9 +91,6 @@ int main(int argc, char **argv) {
         recvBuf[recvDataLen] = '\0';
         cout << "Message received from server: " << recvBuf << endl;
 
-        if(strcmp(recvBuf, "220 Download start") == 0) {
-            startDownload = true;
-        }
         if(startDownload) {
 
             /* Receive data in chunks of 256 bytes */
