@@ -1,0 +1,46 @@
+Bài thực hành 5 Truyền file giữa client và server trên giao thức TCP
+A. Mục tiêu
+ Hiểu cách viết chương trình truyền file giữa client và server trên giao thức TCP
+B. Lưu ý chung:
+ Sử dụng ngôn ngữ lập trình C, C++ trên Linux
+ Đặt tên thư mục chứa file chương trình theo định dạng: Họ tên sinh viên_5, trong thư
+mục này sẽ có 2 thư mục con là Server và Client, kèm theo 1 file docs trình bày giao
+thức. Thư mục Server chứa chương trình phía server, thư mục Client chứa chương trình
+phía client.
+ File nén dưới dạng zip và tên file là Họ tên sinh viên_5.zip. Không lưu file để download
+và test chương trình.
+ Trong comment ở đầu file chương trình ghi rõ họ tên, mã số sinh viên và mô tả chương
+trình
+ Các bài thực hành không theo đúng quy định sẽ không được chấm
+C. Bài thực hành
+5.1 Viết giao thức truyền file giữaBài thực hành 5 Truyền file giữa client và server trên giao thức TCP
+A. Mục tiêu
+ Hiểu cách viết chương trình truyền file giữa client và server trên giao thức TCP
+B. Lưu ý chung:
+ Sử dụng ngôn ngữ lập trình C, C++ trên Linux
+ Đặt tên thư mục chứa file chương trình theo định dạng: Họ tên sinh viên_5, trong thư
+mục này sẽ có 2 thư mục con là Server và Client, kèm theo 1 file docs trình bày giao
+thức. Thư mục Server chứa chương trình phía server, thư mục Client chứa chương trình
+phía client.
+ File nén dưới dạng zip và tên file là Họ tên sinh viên_5.zip. Không lưu file để download
+và test chương trình.
+ Trong comment ở đầu file chương trình ghi rõ họ tên, mã số sinh viên và mô tả chương
+trình
+ Các bài thực hành không theo đúng quy định sẽ không được chấm
+C. Bài thực hành
+5.1 Viết giao thức truyền file giữaBài thực hành 5 Truyền file giữa client và server trên giao thức TCP
+A. Mục tiêu
+ Hiểu cách viết chương trình truyền file giữa client và server trên giao thức TCP
+B. Lưu ý chung:
+ Sử dụng ngôn ngữ lập trình C, C++ trên Linux
+ Đặt tên thư mục chứa file chương trình theo định dạng: Họ tên sinh viên_5, trong thư
+mục này sẽ có 2 thư mục con là Server và Client, kèm theo 1 file docs trình bày giao
+thức. Thư mục Server chứa chương trình phía server, thư mục Client chứa chương trình
+phía client.
+ File nén dưới dạng zip và tên file là Họ tên sinh viên_5.zip. Không lưu file để download
+và test chương trình.
+ Trong comment ở đầu file chương trình ghi rõ họ tên, mã số sinh viên và mô tả chương
+trình
+ Các bài thực hành không theo đúng quy định sẽ không được chấm
+C. Bài thực hành
+5.1 Viết giao thức truyền file giữa

@@ -91,22 +91,26 @@ int main(int argc, char **argv) {
         recvBuf[recvDataLen] = '\0';
         cout << "Message received from server: " << recvBuf << endl;
 
+        if(strcmp(recvBuf, "211 File not found") != 0 
+            && strcmp(recvBuf, "200 Hello Client") != 0
+            && strcmp(recvBuf, "210 Download file OK") != 0
+            && strcmp(recvBuf, "WRONG SYNTAX") != 0
+            && strcmp(recvBuf, "ENTER HELLO SERVER TO START") != 0
+            ) startDownload = true;
+            
         if(startDownload) {
 
-            /* Receive data in chunks of 256 bytes */
-            while(recvDataLen > 0)
-            {
-                cout <<  "Bytes received " << recvBuf << endl ;
-                // recvBuff[n] = 0;
-                fwrite(recvBuf, 1,recvDataLen,fp);
+            // recvBuff[n] = 0;
+            fwrite(recvBuf, 1,recvDataLen,fp);
             // printf("%s \n", recvBuff);
-            }
+            
             if(recvBuf < 0)
             {
                 cout << "Read Error \n";
             }
 
             startDownload = false;
+            recvBuf[0] = '\0';
         }
     }
     close(connSock);
